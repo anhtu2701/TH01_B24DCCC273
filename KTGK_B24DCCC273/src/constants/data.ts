@@ -1,0 +1,58 @@
+import type { Post } from '../types';
+
+export const initialPosts: Post[] = [
+  {
+    id: '1',
+    title: 'Blog 1',
+    author: 'Nguyễn Văn A',
+    thumbnailUrl: 'https://udu.ptit.edu.vn/wp-content/uploads/sites/15/2025/05/499478064_556660544163063_8372687723309220463_n.jpg',
+    content: 'Content 1.',
+    category: 'Công nghệ',
+    createdAt: '2025-01-15',
+  },
+  {
+    id: '2',
+    title: 'Blog 2',
+    author: 'Trần Thị B',
+    thumbnailUrl: 'https://udu.ptit.edu.vn/wp-content/uploads/sites/15/2025/05/499478064_556660544163063_8372687723309220463_n.jpg',
+    content: 'Content 2.',
+    category: 'Du lịch',
+    createdAt: '2025-02-20',
+  },
+  {
+    id: '3',
+    title: 'Blog 3',
+    author: 'Lê Văn C',
+    thumbnailUrl: 'https://udu.ptit.edu.vn/wp-content/uploads/sites/15/2025/05/499478064_556660544163063_8372687723309220463_n.jpg',
+    content: 'Content 3.',
+    category: 'Ẩm thực',
+    createdAt: '2025-03-10',
+  },
+  {
+    id: '4',
+    title: 'Blog 4',
+    author: 'Phạm Thị D',
+    thumbnailUrl: 'https://udu.ptit.edu.vn/wp-content/uploads/sites/15/2025/05/499478064_556660544163063_8372687723309220463_n.jpg',
+    content: 'Content 4.',
+    category: 'Đời sống',
+    createdAt: '2025-04-05',
+  },
+  {
+    id: '5',
+    title: 'Blog 5',
+    author: 'Hoàng Văn E',
+    thumbnailUrl: 'https://udu.ptit.edu.vn/wp-content/uploads/sites/15/2025/05/499478064_556660544163063_8372687723309220463_n.jpg',
+    content: 'Content 5.',
+    category: 'Công nghệ',
+    createdAt: '2025-05-12',
+  },
+  {
+    id: '6',
+    title: 'Blog 6',
+    author: 'Võ Thị F',
+    thumbnailUrl: 'https://udu.ptit.edu.vn/wp-content/uploads/sites/15/2025/05/499478064_556660544163063_8372687723309220463_n.jpg',
+    content: 'Content 6.',
+    category: 'Ẩm thực',
+    createdAt: '2025-06-18',
+  },
+];
